@@ -1,0 +1,117 @@
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <div>
+  <marquee> <p>  welcome To  Our Web </p></marquee>
+</div> -->
+
+<!-- <div class="select-container">
+  <label for="colorDropdown" class="select-label">Select Color:</label>
+  <select id="colorDropdown" [(ngModel)]="selectedColor" (change)="changeBackground()" class="custom-select">
+    <option *ngFor="let color of colors" [value]="color">{{ color }}</option>
+  </select>
+</div>
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="./assets/profilepic.png" class="avatar">
+  </div>
+
+  <div class="container">
+     <button type="submit" onclick ="document.getElementById('id01').style.display='block'" style="width:auto;">Click here to enter Admin Dashboard</button>
+    <button type="submit" (click)="navigateToUser()" >Click here to enter User Dashboard</button>
+  </div> -->
+
+<!-- </form>      
+<div id="id01" class="modal">
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span  onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="./assets/profilepic.png" alt="Avatar" class="avatar">
+    </div>
+
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script> -->
+  
+<!-- function openModal() {
+  modal.style.display = 'block';
+}
+
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+</head>
+<body>
+    <section class="main">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="right-side">
+                    <img src="./assets/fg.jpeg">
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="form-main">
+            <h2>Welcome To Panel</h2>
+          <div class="buttons">
+            <button class="button button1 mt-4" (click)="navigateToAminPopup()" >Click Here To Admin Panel</button>
+          </div>
+          <div class="buttons">
+            <button class="button button1 mt-4" (click)="navigateToUserPopu()" >Click Here To User Panel</button>
+          </div>
+        </div>
+        </div>
+        </div>
+    </div>  
+</section>
+</body>
+</html>
+
+
+
+
+
+
+
+           
+              
+        
+            
+              
+              
+      
+
+              

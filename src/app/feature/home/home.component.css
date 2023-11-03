@@ -1,0 +1,20 @@
+.form-main {
+    border: 1px solid #cacaca;
+    padding: 7rem;
+    width: 100%;
+    margin-top: 5rem;
+    text-align: center;}
+  
+    
+  .button.button1 {
+    height: 50px;
+    width: 330px;
+    color: #fff;
+    background-color: #4da3c5;
+    border: 1px solid #4da3c5; 
+  }
+  .right-side img {
+    height: 100%;
+    width: 97%;
+  }
+  
